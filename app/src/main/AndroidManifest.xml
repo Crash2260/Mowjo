@@ -18,11 +18,14 @@
             android:value="AIzaSyDWQM32GF1bdsA-vf3ngS-5QivmDITyGLg"/>
 
 
+        <activity android:name=".MapActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name=".HomeActivity"
             android:exported="true"
+            android:windowSoftInputMode="adjustPan"
             android:label="@string/app_name"
             android:theme="@style/Theme.Mowjo">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
